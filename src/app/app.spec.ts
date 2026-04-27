@@ -20,6 +20,6 @@ describe('App', () => {
     const fixture = TestBed.createComponent(App);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h5')?.textContent).toContain('Hello, meu-primeiro-app');
+    expect(compiled.querySelector('h5')?.textContent).toContain('Hello, my-pocket-bank!');
   });
 });

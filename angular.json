@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "meu-primeiro-app": {
+    "my-pocket-bank": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -53,10 +53,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "meu-primeiro-app:build:production"
+              "buildTarget": "my-pocket-bank:build:production"
             },
             "development": {
-              "buildTarget": "meu-primeiro-app:build:development"
+              "buildTarget": "my-pocket-bank:build:development"
             }
           },
           "defaultConfiguration": "development"

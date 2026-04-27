@@ -10,6 +10,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('meu-primeiro-app');
+  protected readonly title = signal('my-pocket-bank');
 
 }
