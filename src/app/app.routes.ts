@@ -3,7 +3,7 @@ import { Hub } from './pages/hub/hub';
 
 export const routes: Routes = [
     {
-        path: "Home",
+        path: "",
         component: Hub
     }
 ];
